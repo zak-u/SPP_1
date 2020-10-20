@@ -1,0 +1,14 @@
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/TracerApp.exe.config
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/TracerApp.exe
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/TracerApp.pdb
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/Newtonsoft.Json.dll
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/System.Xml.Linq.dll
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/TracerLibrary.dll
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/TracerLibrary.pdb
+/Users/admin/Projects/TracerApp/TracerApp/bin/Debug/Newtonsoft.Json.xml
+/Users/admin/Projects/TracerApp/TracerApp/obj/Debug/TracerApp.csprojAssemblyReference.cache
+/Users/admin/Projects/TracerApp/TracerApp/obj/Debug/TracerApp.exe.config
+/Users/admin/Projects/TracerApp/TracerApp/obj/Debug/TracerApp.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/TracerApp/TracerApp/obj/Debug/TracerApp.csproj.CopyComplete
+/Users/admin/Projects/TracerApp/TracerApp/obj/Debug/TracerApp.exe
+/Users/admin/Projects/TracerApp/TracerApp/obj/Debug/TracerApp.pdb

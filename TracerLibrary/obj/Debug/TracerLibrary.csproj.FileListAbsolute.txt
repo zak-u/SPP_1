@@ -1,0 +1,6 @@
+/Users/admin/Projects/TracerApp/TracerLibrary/bin/Debug/TracerLibrary.dll
+/Users/admin/Projects/TracerApp/TracerLibrary/bin/Debug/TracerLibrary.pdb
+/Users/admin/Projects/TracerApp/TracerLibrary/obj/Debug/TracerLibrary.csprojAssemblyReference.cache
+/Users/admin/Projects/TracerApp/TracerLibrary/obj/Debug/TracerLibrary.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/TracerApp/TracerLibrary/obj/Debug/TracerLibrary.dll
+/Users/admin/Projects/TracerApp/TracerLibrary/obj/Debug/TracerLibrary.pdb

@@ -1,0 +1,12 @@
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/TestsForTracer.dll
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/TestsForTracer.pdb
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/nunit.framework.dll
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/TracerLibrary.dll
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/TracerLibrary.pdb
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/nunit.framework.pdb
+/Users/admin/Projects/TracerApp/TestsForTracer/bin/Debug/nunit.framework.xml
+/Users/admin/Projects/TracerApp/TestsForTracer/obj/Debug/TestsForTracer.csprojAssemblyReference.cache
+/Users/admin/Projects/TracerApp/TestsForTracer/obj/Debug/TestsForTracer.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/TracerApp/TestsForTracer/obj/Debug/TestsForTracer.csproj.CopyComplete
+/Users/admin/Projects/TracerApp/TestsForTracer/obj/Debug/TestsForTracer.dll
+/Users/admin/Projects/TracerApp/TestsForTracer/obj/Debug/TestsForTracer.pdb
