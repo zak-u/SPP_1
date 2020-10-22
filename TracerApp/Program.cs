@@ -36,18 +36,27 @@ namespace TracerApp
 
         static void GetConverting()
         {
-            string xmlFileName = "/Users/admin/Projects/TracerApp/Results/new.xml";
-            string jsonFileName = "/Users/admin/Projects/TracerApp/Results/new.json";
+            string xmlFileName = "/Users/admin/Projects/TracerApp/Results/1.xml";
+            string jsonFileName = "/Users/admin/Projects/TracerApp/Results/1.json";
 
             IConverter iConverter;
+            IOutPut iOutPut;
+            string stringResult;
 
-            iConverter = new XmlConverter(xmlFileName);
-            iConverter.Convert(tracer.GetTraceResult());
+            iOutPut = new XmlOut();
+            iConverter = new XmlConverter();
+            stringResult = iConverter.Convert(tracer.GetTraceResult());
+            // iConverter.Convert(tracer.GetTraceResult());
+            iOutPut.ConsoleOut(stringResult);
+            iOutPut.FileOut(stringResult, xmlFileName);
 
             Console.WriteLine();
 
-            iConverter = new JSonConverter(jsonFileName);
-            iConverter.Convert(tracer.GetTraceResult());
+            iOutPut = new JSonOut();
+            iConverter = new JSonConverter();
+            stringResult = iConverter.Convert(tracer.GetTraceResult());
+            iOutPut.ConsoleOut(stringResult);
+            iOutPut.FileOut(stringResult, jsonFileName);
         }
 
 

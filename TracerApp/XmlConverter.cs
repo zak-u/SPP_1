@@ -8,13 +8,7 @@ namespace TracerApp
 {
     public class XmlConverter : IConverter
     {
-        private string fileName;
-
-        public XmlConverter(string fileName)
-        {
-            this.fileName = fileName;
-        }
-
+        
         private XDocument CreateXDocument(TraceResult traceResult)
         {
             XDocument xDocument = new XDocument();
@@ -73,14 +67,12 @@ namespace TracerApp
             return executionTime;
         }
 
-        public void Convert(TraceResult traceResult)
+        public string Convert(TraceResult traceResult)
         {
             XDocument xDocument = CreateXDocument(traceResult);
-            using (StreamWriter streamWriter = new StreamWriter(fileName))
-            {
-                xDocument.Save(streamWriter);
-            }
-            Console.WriteLine(xDocument);
+            string xmlString =  xDocument.ToString();
+            return xmlString;
+            
         }
     }
 }

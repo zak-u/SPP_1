@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <thread id="1" time="23">
-    <method name="ExampleMethod5" class="MainClass" time="23" />
+  <thread id="1" time="26">
+    <method name="ExampleMethod5" class="MainClass" time="26" />
   </thread>
   <thread id="4" time="10">
     <method name="ExampleMethod1" class="MainClass" time="10">
@@ -11,8 +10,8 @@
   <thread id="5" time="9">
     <method name="InnerClassMethod" class="ClassForExample" time="9" />
   </thread>
-  <thread id="6" time="120">
+  <thread id="6" time="119">
     <method name="ExampleMethod11" class="MainClass" time="9" />
-    <method name="ExampleMethod42" class="MainClass" time="111" />
+    <method name="ExampleMethod42" class="MainClass" time="110" />
   </thread>
 </root>

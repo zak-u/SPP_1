@@ -5,6 +5,7 @@ namespace TracerApp
 {
     public interface IConverter
     {
-        void Convert(TraceResult traceResult);
+        string Convert(TraceResult traceResult);
+       
     }
 }

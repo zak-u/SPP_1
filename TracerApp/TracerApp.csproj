@@ -42,6 +42,9 @@
     <Compile Include="IConverter.cs" />
     <Compile Include="JSonConverter.cs" />
     <Compile Include="XmlConverter.cs" />
+    <Compile Include="IOutPut.cs" />
+    <Compile Include="JSonOut.cs" />
+    <Compile Include="XmlOut.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TracerLibrary\TracerLibrary.csproj">

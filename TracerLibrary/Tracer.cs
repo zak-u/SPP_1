@@ -21,7 +21,7 @@ namespace TracerLibrary
 
             currentThreadInformation = threadsInformation[currentThreadID];
 
-            //Перемещаемся в текущем потоке на 1 уровень глубже
+            //Перемещаемся в текущем потоке на 1 уровень
             currentThreadInformation.depthLevel++;
 
             //Добавляем измеряемый метод
@@ -38,7 +38,7 @@ namespace TracerLibrary
             //Останавливаем таймер и записываем время метода
             traceResult.AddMethodExecutionTime(currentThreadInformation.depthLevel);
 
-            //Поднимаемся на уровень выше
+            //Поднимаемся на уровень 
             currentThreadInformation.depthLevel--;
         }
 

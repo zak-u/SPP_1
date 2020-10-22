@@ -15,14 +15,11 @@ namespace TracerApp
             public List<MethodInformation> methodInformation;
         }
 
-        private string fileName;
+       
         private List<ThreadInformationForJSon> threadInformationListForJSon = new List<ThreadInformationForJSon>();
+        string jsonString;
 
-        public JSonConverter(string fileName)
-        {
-            this.fileName = fileName;
-        }
-
+     
         private int CountThreadExecutionTime(List<MethodInformation> methodInformation)
         {
             int executionTime = 0;
@@ -45,19 +42,25 @@ namespace TracerApp
             }
         }
 
-        public void Convert(TraceResult traceResult)
+        public string GetToString()
         {
-            PrepareThreadInformationListForJSon(traceResult);
-
             string jsonString = JsonConvert.SerializeObject(threadInformationListForJSon, Formatting.Indented, new JsonSerializerSettings
             {
                 NullValueHandling = NullValueHandling.Ignore
             });
-            using (StreamWriter streamWriter = new StreamWriter(fileName))
+            return jsonString;
+        }
+
+        public string Convert(TraceResult traceResult)
+        {
+            PrepareThreadInformationListForJSon(traceResult);
+            
+            jsonString = JsonConvert.SerializeObject(threadInformationListForJSon, Formatting.Indented, new JsonSerializerSettings
             {
-                streamWriter.WriteLine(jsonString);
-            }
-            Console.WriteLine(jsonString);
+                NullValueHandling = NullValueHandling.Ignore
+            });
+            return jsonString;
+            
         }
 
     }
