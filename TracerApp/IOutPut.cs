@@ -3,7 +3,7 @@ namespace TracerApp
 {
     public interface IOutPut
     {
-        void ConsoleOut(string traceResultForConsole);
-        void FileOut(string traceResultForConsole, string fileName);
+        void Out(string traceResultForConsole);
+       
     }
 }

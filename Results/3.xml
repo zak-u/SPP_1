@@ -10,8 +10,8 @@
   <thread id="5" time="9">
     <method name="InnerClassMethod" class="ClassForExample" time="9" />
   </thread>
-  <thread id="6" time="119">
+  <thread id="6" time="120">
     <method name="ExampleMethod11" class="MainClass" time="9" />
-    <method name="ExampleMethod42" class="MainClass" time="110" />
+    <method name="ExampleMethod42" class="MainClass" time="111" />
   </thread>
 </root>

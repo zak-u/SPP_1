@@ -1,0 +1,63 @@
+[
+  {
+    "threadID": 1,
+    "threadExecutionTime": 26,
+    "methodInformation": [
+      {
+        "name": "ExampleMethod5",
+        "className": "MainClass",
+        "executionTime": 26,
+        "childMethods": []
+      }
+    ]
+  },
+  {
+    "threadID": 4,
+    "threadExecutionTime": 10,
+    "methodInformation": [
+      {
+        "name": "ExampleMethod1",
+        "className": "MainClass",
+        "executionTime": 10,
+        "childMethods": [
+          {
+            "name": "ExampleMethod11",
+            "className": "MainClass",
+            "executionTime": 8,
+            "childMethods": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "threadID": 5,
+    "threadExecutionTime": 9,
+    "methodInformation": [
+      {
+        "name": "InnerClassMethod",
+        "className": "ClassForExample",
+        "executionTime": 9,
+        "childMethods": []
+      }
+    ]
+  },
+  {
+    "threadID": 6,
+    "threadExecutionTime": 120,
+    "methodInformation": [
+      {
+        "name": "ExampleMethod11",
+        "className": "MainClass",
+        "executionTime": 9,
+        "childMethods": []
+      },
+      {
+        "name": "ExampleMethod42",
+        "className": "MainClass",
+        "executionTime": 111,
+        "childMethods": []
+      }
+    ]
+  }
+]

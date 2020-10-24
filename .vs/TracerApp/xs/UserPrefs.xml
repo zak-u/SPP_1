@@ -1,27 +1,23 @@
 ﻿<Properties StartupConfiguration="{52E51B60-D0FC-4DC2-8AFC-4725F55C56E2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TracerApp/XmlOut.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestsForTracer/TracerTest.cs">
     <Files>
-      <File FileName="TracerApp/Program.cs" Line="46" Column="24" />
-      <File FileName="TestsForTracer/TracerTest.cs" Line="48" Column="48" />
+      <File FileName="TracerApp/Program.cs" Line="53" Column="36" />
+      <File FileName="TestsForTracer/TracerTest.cs" Line="38" Column="14" />
       <File FileName="TracerLibrary/Tracer.cs" Line="16" Column="56" />
       <File FileName="TracerLibrary/TraceResult.cs" Line="12" Column="10" />
-      <File FileName="TracerLibrary/MethodInformation.cs" Line="1" Column="1" />
-      <File FileName="TracerLibrary/ThreadInformation.cs" Line="1" Column="1" />
-      <File FileName="TracerApp/IConverter.cs" Line="8" Column="15" />
-      <File FileName="TracerApp/JSonConverter.cs" Line="80" Column="2" />
-      <File FileName="TracerApp/XmlConverter.cs" Line="83" Column="42" />
-      <File FileName="TracerApp/IOutPut.cs" Line="9" Column="2" />
-      <File FileName="TracerApp/JSonOut.cs" Line="21" Column="2" />
-      <File FileName="TracerApp/XmlOut.cs" Line="8" Column="10" />
+      <File FileName="TracerApp/IConverter.cs" Line="8" Column="9" />
+      <File FileName="TracerApp/JSonConverter.cs" Line="6" Column="1" />
+      <File FileName="TracerApp/XmlConverter.cs" Line="75" Column="13" />
+      <File FileName="TracerApp/IOutPut.cs" Line="10" Column="1" />
+      <File FileName="TracerApp/ConsoleOut.cs" Line="11" Column="2" />
+      <File FileName="TracerApp/FileOut.cs" Line="19" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TracerApp" expanded="True">
             <Node name="TestsForTracer" expanded="True" />
-            <Node name="TracerApp" expanded="True">
-              <Node name="XmlOut.cs" selected="True" />
-            </Node>
+            <Node name="TracerApp" expanded="True" selected="True" />
             <Node name="TracerLibrary" expanded="True" />
           </Node>
         </State>

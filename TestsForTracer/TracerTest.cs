@@ -35,6 +35,7 @@ namespace TestsForTracer
         {
             Tracer tracer = Setup();
             Assert.IsTrue(tracer.GetTraceResult().threadsMethodList.ContainsKey(Thread.CurrentThread.ManagedThreadId));
+           // Assert.GreaterOrEqual
         }
 
         [Test()]

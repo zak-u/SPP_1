@@ -41,15 +41,7 @@ namespace TracerApp
                 threadInformationListForJSon.Add(threadInformationForJSon);
             }
         }
-
-        public string GetToString()
-        {
-            string jsonString = JsonConvert.SerializeObject(threadInformationListForJSon, Formatting.Indented, new JsonSerializerSettings
-            {
-                NullValueHandling = NullValueHandling.Ignore
-            });
-            return jsonString;
-        }
+        
 
         public string Convert(TraceResult traceResult)
         {

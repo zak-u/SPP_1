@@ -1,12 +1,12 @@
 [
   {
     "threadID": 1,
-    "threadExecutionTime": 26,
+    "threadExecutionTime": 25,
     "methodInformation": [
       {
         "name": "ExampleMethod5",
         "className": "MainClass",
-        "executionTime": 26,
+        "executionTime": 25,
         "childMethods": []
       }
     ]
@@ -44,7 +44,7 @@
   },
   {
     "threadID": 6,
-    "threadExecutionTime": 119,
+    "threadExecutionTime": 120,
     "methodInformation": [
       {
         "name": "ExampleMethod11",
@@ -55,7 +55,7 @@
       {
         "name": "ExampleMethod42",
         "className": "MainClass",
-        "executionTime": 110,
+        "executionTime": 111,
         "childMethods": []
       }
     ]
